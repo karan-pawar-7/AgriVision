@@ -1,0 +1,537 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+    background: #f8faf7;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 70px;
+    font-size: 20px;
+    border-radius: 30px;
+
+
+}
+
+ul button {
+    background-color:rgb(30, 197, 50);
+    border-radius: 20px;
+    height: 30px;
+    width: 120px;
+    margin-right: 50px;
+    border-color: #f4f8f4;
+    color: #faf8f8;
+}
+
+.logo span {
+    color: #f1d106;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 5rem;
+    margin-right: 10px;
+    padding-right: 20px;
+
+}
+
+ul a:hover {
+    color: #27dd1a;
+}
+
+ul a {
+    text-decoration: none;
+    margin-right: 15px;
+    padding-right: 15px;
+    color: rgb(12, 12, 12);
+
+}
+
+.logo img {
+    display: flex;
+    height: 10rem;
+    margin-top: 15px;
+    float: left;
+    
+
+
+}
+
+/* HOME */
+
+#home {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    background-color: #c2ebd87c;
+
+}
+
+.home-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-top: 30px;
+    height: 100vh;
+}
+
+.home-left span {
+    color: #13a92e;
+}
+
+.home-left p {
+    display: flex;
+    padding-left:2px;
+    gap: 10px;
+    font-size: 20px;
+    align-items: center;
+    text-align: justify;
+    margin-bottom: 5rem;
+    width: 40rem;
+    font-family: cursive;
+
+}
+
+.home-left h1 {
+    display: flex;
+    padding-left: 100px;
+    font-size: 100px;
+    align-items: center;
+    color: rgb(6, 6, 6);
+    font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
+    ;
+    font-weight: 700;
+
+}
+
+.btn {
+    display: flex;
+    align-items: end;
+    gap: 20px;
+
+}
+
+.btn .btn1 {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #3d1a1a;
+    color: #f8faf7;
+    font-size: 15px;
+}
+
+.btn .btn2 {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    font-size: 15px;
+    border: 1px solid #0f100e;
+}
+
+.home-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50rem;
+    margin-top: auto;
+    margin-bottom: 5rem;
+    margin-right: 40px;
+
+
+}
+
+.home-right img {
+    display: flex;
+    height: auto;
+    width: 40rem;
+    height: 35rem;
+    margin-left: 7rem;
+    border-radius: 2rem;
+    margin-top: 8rem;
+
+
+}
+
+.btm {
+
+    margin-bottom: 9rem;
+    background-color: #13a92e;
+    color: aliceblue;
+    border: 2px solid white;
+    border-radius: 8px;
+    height: 40px;
+    width: 110px;
+    font-weight: bold;
+
+}
+
+/* About */
+
+#about {
+    background-color:beige;
+
+}
+
+#about h2,
+h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    font-size: 100px;
+
+}
+
+#about h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.left-about p {
+    font-size: 20px;
+}
+
+.right-about p {
+    font-size: 20px;
+}
+
+.about-container {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    gap: 30px;
+    margin: 0px 35px;
+}
+
+.about-container button {
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: #3d1a1a;
+    color: #f8faf7;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.left-about {
+    display: flex;
+    flex-direction: column;
+
+    height: 100%;
+    width: 50rem;
+
+}
+
+.left-about img {
+    height: 25rem;
+    width: 45rem;
+    border-radius: 20px;
+}
+
+.right-about img {
+    height: 25rem;
+    width: 45rem;
+    border-radius: 20px;
+}
+
+.right-about {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 50rem;
+
+}
+
+#about .h {
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header {
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header h2 {
+    font-size: 60px;
+}
+
+.header p {
+    font-size: 25px;
+}
+
+
+
+
+
+#services{
+    background-color:rgba(255, 228, 196, 0.716);
+    padding-top: 20px;
+    padding-bottom: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+.services-container{
+     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 39px;
+    padding: 30px 30px;
+    margin-bottom: 50px;
+   
+}
+.services-container p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sr1 h7{
+    height:20px ;
+    font-size: 19px;
+    width: 105px;
+}
+#s1{
+    height: 18rem;
+    width: 29rem;
+    border-radius: 20px;
+}
+.services-heading h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color:rgb(15, 14, 14);
+    padding-left: 40px;
+}
+.services-heading p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: 11rem;
+    
+}
+
+
+
+
+#SuccessStories{
+    
+    padding-top: 20px;
+    background-color:rgba(224, 255, 255, 0.625);
+}
+
+
+
+.stories-container{
+     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+    margin: 20px 20px;
+    margin-left: 14rem;
+    margin-right: 10rem;
+}
+.st1 img {
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+
+}
+.st1 h6{
+    height:20px ;
+    font-size: 19px;
+    width: 105px;
+}
+#a1{
+    height: 20rem;
+    width: 35rem;
+    border-radius: 20px;
+}
+.heading1 h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    color:rgb(14, 13, 13);
+}
+.heading1 p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    width: 80%;
+    margin-left: 13rem;
+}
+
+#contact{
+    padding-top: 90px;
+    background-color:rgba(255, 255, 224, 0.373);
+    height: 100%;
+    width: 100%;
+}
+
+.Contact-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    gap: 40px;
+    margin-bottom: 30px;
+
+}
+
+.left-contact{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:left;
+    height: 100vh;
+    width: 40rem;
+    box-shadow: 0px 4px 8px black;
+    
+}
+.heading-c {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.heading-c h3{
+    color: #13a92e;
+    font-size: 25px;
+    padding-top: 10px;
+}
+.heading-c span{
+    color: #13a92e;
+}
+
+.heading-c h1{
+    font-size: 65px;
+}
+.heading-c img{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    
+
+    
+}
+    
+.right-contact{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    
+    border-radius: 10px;
+    width: 40rem;  
+    background-color: #fff;
+    box-shadow: 0px 4px 8px black;
+
+
+}
+.right-contact h1{
+    font-size: 30px;
+    padding: 20px ;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items:start;
+    justify-content:left;
+    gap: 20px;
+
+}
+textarea{
+    resize:none ;
+    margin-left: 20px;
+    width: 35rem;
+    height: 100px;
+    padding: 10px 0px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+
+}
+
+input{
+    height: 40px;
+    width: 35rem;
+    margin: 20px;
+    padding-left: 10px;
+    border-radius: 10px;
+    border: 1px solid wheat;
+    
+}
+.right-contact button{
+    height: 35px;
+    width: 35rem;
+    margin-left: 20px;
+    background-color:#137024f9;
+    border: 1px solid wheat;
+    border-radius: 10px;
+    color: rgb(245, 247, 249);
+    
+
+}
+.left-contact{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 15px;
+    background-color: #fff;
+    
+}
+.left-contact img{
+    height: 50px;
+}
+.left-contact .c1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.c1 span{
+    font-weight: bold;
+    font-size: 20px;
+}
+.c2 p{
+    font-size: 20px;
+}
+.c1 p{
+    font-size: 20px;
+}

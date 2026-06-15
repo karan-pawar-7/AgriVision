@@ -34,7 +34,6 @@ ul button {
     border-radius: 20px;
     height: 30px;
     width: 120px;
-    margin-right: 50px;
     border-color: #f4f8f4;
     color: #faf8f8;
 }
@@ -47,24 +46,28 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 30px;
     margin-left: 5rem;
     margin-right: 10px;
     padding-right: 20px;
 
 }
 
+
+ul a {
+    text-decoration: none;
+    margin-right: 5px;
+    padding-right: 15px;
+    color: rgb(12, 12, 12);
+    transition-property: color;
+    transition-duration: 1s;
+    transition-delay: 0ms;
+
+}
 ul a:hover {
     color: #27dd1a;
 }
 
-ul a {
-    text-decoration: none;
-    margin-right: 15px;
-    padding-right: 15px;
-    color: rgb(12, 12, 12);
-
-}
 
 .logo img {
     display: flex;
@@ -515,8 +518,10 @@ input {
     padding-left: 10px;
     border-radius: 10px;
     border: 1px solid wheat;
+    
 
 }
+
 
 .right-contact button {
     height: 35px;

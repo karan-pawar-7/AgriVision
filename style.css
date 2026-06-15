@@ -13,7 +13,7 @@ body {
 }
 
 nav {
-    background-color: #fff;
+    background-color:snow;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,7 +30,7 @@ nav {
 }
 
 ul button {
-    background-color:rgb(30, 197, 50);
+    background-color: rgb(30, 197, 50);
     border-radius: 20px;
     height: 30px;
     width: 120px;
@@ -71,7 +71,8 @@ ul a {
     height: 10rem;
     margin-top: 15px;
     float: left;
-    
+    width: 180px;
+
 
 
 }
@@ -102,7 +103,7 @@ ul a {
 
 .home-left p {
     display: flex;
-    padding-left:2px;
+    padding-left: 2px;
     gap: 10px;
     font-size: 20px;
     align-items: center;
@@ -120,7 +121,7 @@ ul a {
     align-items: center;
     color: rgb(6, 6, 6);
     font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', Helvetica, Arial, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', sans-serif;
-    
+
     font-weight: 700;
 
 }
@@ -190,7 +191,7 @@ ul a {
 /* About */
 
 #about {
-    background-color:beige;
+    background-color: beige;
 
 }
 
@@ -295,99 +296,109 @@ h4 {
 
 
 
-#services{
-    background-color:rgba(255, 228, 196, 0.716);
+#services {
+    background-color: rgba(255, 228, 196, 0.716);
     padding-top: 20px;
     padding-bottom: 30px;
     height: 100%;
     width: 100%;
 }
 
-.services-container{
-     display: grid;
+.services-container {
+    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 39px;
     padding: 30px 30px;
     margin-bottom: 50px;
-   
+
 }
-.services-container p{
+
+.services-container p {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.sr1 h7{
-    height:20px ;
+.sr1 h7 {
+    height: 20px;
     font-size: 19px;
     width: 105px;
 }
-#s1{
+
+#s1 {
     height: 18rem;
     width: 29rem;
     border-radius: 20px;
 }
-.services-heading h1{
+
+.services-heading h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 5rem;
-    color:rgb(15, 14, 14);
+    color: rgb(15, 14, 14);
     padding-left: 40px;
 }
-.services-heading p{
+
+.services-heading p {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 1.5rem;
     width: 80%;
     margin-left: 11rem;
-    
+
 }
 
 
 
 
-#SuccessStories{
-    
+#SuccessStories {
+
     padding-top: 20px;
-    background-color:rgba(224, 255, 255, 0.625);
+    background-color: rgba(224, 255, 255, 0.625);
 }
 
 
 
-.stories-container{
-     display: grid;
+.stories-container {
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
-    margin: 20px 20px;
-    margin-left: 14rem;
-    margin-right: 10rem;
+    gap: 30px;
+    margin: 30px 30px;
+    margin-left: 80px;
+    
 }
+
 .st1 img {
-    height: 70px;
+    height: 90px;
     border-radius: 50%;
     margin-top: 20px;
 
 }
-.st1 h6{
-    height:20px ;
+
+.st1 h6 {
+    height: 20px;
     font-size: 19px;
     width: 105px;
 }
-#a1{
-    height: 20rem;
-    width: 35rem;
+
+#a1 {
+    height: 25rem;
+    width: 40rem;
     border-radius: 20px;
+    
 }
-.heading1 h1{
+
+.heading1 h1 {
     display: flex;
     align-items: center;
     justify-content: center;
     font-size: 5rem;
-    color:rgb(14, 13, 13);
+    color: rgb(14, 13, 13);
 }
-.heading1 p{
+
+.heading1 p {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -396,14 +407,14 @@ h4 {
     margin-left: 13rem;
 }
 
-#contact{
+#contact {
     padding-top: 90px;
-    background-color:rgba(255, 255, 224, 0.373);
+    background-color: rgba(255, 255, 224, 0.373);
     height: 100%;
     width: 100%;
 }
 
-.Contact-container{
+.Contact-container {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -415,69 +426,78 @@ h4 {
 
 }
 
-.left-contact{
+.left-contact {
     display: flex;
     flex-direction: column;
-    align-items:start;
-    justify-content:left;
+    align-items: start;
+    justify-content: left;
     height: 100vh;
     width: 40rem;
     box-shadow: 0px 4px 8px black;
-    
+
 }
+
 .heading-c {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.heading-c h3{
+
+.heading-c h3 {
     color: #13a92e;
     font-size: 25px;
     padding-top: 10px;
 }
-.heading-c span{
+
+.heading-c span {
     color: #13a92e;
 }
 
-.heading-c h1{
+.heading-c h1 {
     font-size: 65px;
 }
-.heading-c img{
+
+.heading-c img {
     display: flex;
     align-items: center;
     height: 90px;
-    
 
-    
+    background-color: rgba(255, 255, 224, 0.373);
+
+
+
 }
-    
-.right-contact{
+
+.right-contact {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    
+
     border-radius: 10px;
-    width: 40rem;  
+    width: 40rem;
     background-color: #fff;
     box-shadow: 0px 4px 8px black;
 
 
 }
-.right-contact h1{
+
+.right-contact h1 {
     font-size: 30px;
-    padding: 20px ;
+    padding: 20px;
 }
-form{
+
+form {
     display: flex;
     flex-direction: column;
-    align-items:start;
-    justify-content:left;
+    align-items: start;
+    justify-content: left;
     gap: 20px;
 
 }
-textarea{
-    resize:none ;
+
+textarea {
+    resize: none;
     margin-left: 20px;
     width: 35rem;
     height: 100px;
@@ -488,50 +508,60 @@ textarea{
 
 }
 
-input{
+input {
     height: 40px;
     width: 35rem;
     margin: 20px;
     padding-left: 10px;
     border-radius: 10px;
     border: 1px solid wheat;
-    
+
 }
-.right-contact button{
+
+.right-contact button {
     height: 35px;
     width: 35rem;
     margin-left: 20px;
-    background-color:#137024f9;
+    background-color: #137024f9;
     border: 1px solid wheat;
     border-radius: 10px;
     color: rgb(245, 247, 249);
-    
+
 
 }
-.left-contact{
+
+.left-contact {
     display: grid;
-    grid-template-columns: repeat(1, 1fr);;
+    grid-template-columns: repeat(1, 1fr);
+    ;
     padding-left: 20px;
     padding-top: 10px;
     border-radius: 15px;
     background-color: #fff;
-    
+
 }
-.left-contact img{
+
+.left-contact img {
     height: 50px;
 }
-.left-contact .c1{
+
+.left-contact .c1 {
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
-.c1 span{
+
+.c1 span {
     font-weight: bold;
     font-size: 20px;
 }
-.c2 p{
+
+.c2 p {
     font-size: 20px;
 }
-.c1 p{
+
+.c1 p {
     font-size: 20px;
 }
+
+
